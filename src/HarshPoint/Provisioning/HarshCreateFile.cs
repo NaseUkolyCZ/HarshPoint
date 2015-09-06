@@ -7,7 +7,7 @@ namespace HarshPoint.Provisioning
 {
     public sealed class HarshCreateFile : HarshProvisioner
     {
-        public File AddedFile
+        public Microsoft.SharePoint.Client.File AddedFile
         {
             get;
             private set;
